@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    margin: 30px 80px; 
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+#edit-form{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+  }
+ 
+  label{
+    color: white;
+  }
+ 
+  input{
+    padding: 10px;
+    width: 26vw;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+  }
+  #addEmployee{
+    margin-top: 15px;
+    padding: 10px 35px;
+  }
+  #employeeList{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+   
+
+  }
+.employee-card{
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+#added-employees{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
